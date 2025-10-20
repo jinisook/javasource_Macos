@@ -24,7 +24,8 @@ public class ShopEx {
 
         // User user = new User("이름이", PayType.CARD);
 
-        MyShop myShop = new MyShop();
+        // MyShop myShop = new MyShop(); // MyShop - 배열
+        MyShop2 myShop = new MyShop2();
         // 이름 지정
         myShop.setTitle("wish shop");
         // 사용자 등록

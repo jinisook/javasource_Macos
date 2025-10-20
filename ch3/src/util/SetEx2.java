@@ -25,6 +25,9 @@ public class SetEx2 {
         // set.sort() -> X , Collections 사용, Collections.sort(set); -> sort는 list만
         // set -> list 변환
         List<Integer> list = new LinkedList<>(set);
+
+        list.forEach(null);
+
         Collections.sort(list);
         System.out.println(list);
 

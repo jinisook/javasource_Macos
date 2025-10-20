@@ -11,6 +11,7 @@ public class ArraysEx3 {
         // 정렬 - 선택정렬, 버블정렬, 퀵정렬... Arrays.sort(변수명);
         Arrays.sort(arr);
         System.out.println("오름차순 정렬 후");
+        System.out.println(arr); // 주소 값
         System.out.println(Arrays.toString(arr));
         // 내림차순 정렬
         // Arrays.sort(T[] a, Comparator<? super T>c);

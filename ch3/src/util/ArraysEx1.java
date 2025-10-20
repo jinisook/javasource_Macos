@@ -19,7 +19,8 @@ public class ArraysEx1 {
         // System.arraycopy(arr, 0, newArr, 0, 0);
 
         int[] copyArr = Arrays.copyOf(arr, arr.length);
-        System.out.println(Arrays.toString(copyArr));
+        System.out.println(copyArr); // 주소 값
+        System.out.println(Arrays.toString(copyArr)); // 값을 알기 위해, toString
 
         int[] copyArr2 = Arrays.copyOfRange(arr, 1, 3); // 1번째자리부터 3번째자리 copy (3번째자리는 포함X)
         System.out.println(Arrays.toString(copyArr2));
