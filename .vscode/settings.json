@@ -1,6 +1,8 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/Users/soo/Downloads/lombok.jar"
+        "/Users/soo/Downloads/lombok.jar",
+        "/Users/soo/Desktop/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0.jar",
+        "/Users/soo/Desktop/ojdbc11.jar"
     ]
 }
