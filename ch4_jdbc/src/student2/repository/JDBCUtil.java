@@ -50,7 +50,7 @@ public class JDBCUtil {
                 con.close();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
@@ -60,7 +60,7 @@ public class JDBCUtil {
                 pstmt.close();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
@@ -70,7 +70,7 @@ public class JDBCUtil {
                 rs.close();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 }
